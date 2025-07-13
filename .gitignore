@@ -1,0 +1,24 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env.*
+*.sqlite3
+.DS_Store
+.ipynb_checkpoints/
+*.log
+
+# VSCode
+.vscode/
+
+# Jupyter
+*.ipynb_checkpoints/
+
+# LangChain cache or logs (if any)
+.langchain/
+
+# Other
+*.db
